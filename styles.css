@@ -27,12 +27,12 @@ body{
 
 .inputsection{
     margin: auto;
-    max-width: 50vw;
+    max-width: 75vw;
     padding: .5em 0;
 }
 
 .totalscreens{
-    width: 50vw;
+    width: 75vw;
 }
 
 .inputsection > *, .garmentamountsection > *, .numberofcolourssection > *, .numberofcustomcolourssection > *{
@@ -54,21 +54,21 @@ body{
     grid-column-start: 1;
     grid-column-end: 6;
     grid-auto-rows: auto;
-    width: minmax(max-content,50vw);
+    width: minmax(max-content,75vw);
 }
 
 .addgarment{
     grid-column-start: 1;
     grid-column-end: 5;
     grid-auto-rows: auto;
-    width: 50vw;
+    width: 75vw;
 }
 
 .removerowbutton{
     grid-column-start: 5;
     grid-column-end: 6;
     grid-auto-rows: auto;
-    width: minmax(max-content,50vw);
+    width: minmax(max-content,75vw);
 }
 
 
