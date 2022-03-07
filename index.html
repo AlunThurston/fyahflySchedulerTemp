@@ -1,2 +1,55 @@
-<h1>Hello World</h1>
-<p>Lorem</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
+<body>
+
+    <div class="nav-container">
+        <H1 class="page-title">Fyahfly Screenprint Scheduler</H1>
+    </div>
+
+    <section class="inputsarea">
+        
+        <div class="inputsection">
+            <input type="number" name="totalscreens" id="totalscreens" class="totalscreens" placeholder="Total number of screens">
+        </div>
+        
+        <div class="inputsection" id="inputsection">
+            <div class="garmentamountsection" id="garmentamountsection">
+                <select name="garmenttype" id="garmenttype" class="garmenttype"  placeholder="Garment type">
+                    <option value="t-shirt">t-shirt</option>
+                    <option value="hoodie">hoodie</option>
+                </select>
+                <input type="number" name="garmentamount" id="garmentamount" class="garmentamount"  placeholder="Garment amount">
+                <button class="addgarment" id="addgarment" onclick="addGarment()">Add garment type</button>
+            </div>
+        </div>
+
+        <div class="inputsection" id="inputsection">
+            <div class="numberofcolourssection" id="numberofcolourssection">
+                <input type="number" name="totalnumberofcolours" id="totalnumberofcolours" class="totalnumberofcolours"  placeholder="Total number of colours">
+            </div>
+        </div>
+
+        <div class="inputsection" id="inputsection">
+            <div class="numberofcustomcolourssection" id="numberofcustomcolourssection">
+                <input type="number" name="numberofcustomcolours" id="numberofcustomcolours" class="numberofcustomcolours"  placeholder="Number of custom colours">
+            </div>
+        </div>
+
+    </section>
+
+<!-- test area -->
+<div id="testel"></div>
+<!-- test area end -->
+
+
+</body>
+<script src="script.js"></script>
+</html>
